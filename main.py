@@ -12,7 +12,6 @@ def calc_weighted_budget(T_B, index, T_Deltas, Cap_R, K_R):
         b = np.asarray(K_R)
         b = b[:len(T_Deltas)]
         T_wb = np.dot(a, b) / np.sum(a)
-        print()
 
     return T_wb
 
